@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <a href="/"><h3> < Back </h3></a>
+    <h1>{{ title }}</h1>
+    <p>Create {{ title }}</p>
+		<form action="/create" method="post" accept-charset="utf-8">
+			<input type="text" name="content" />
+      <button type="submit">Add</button>
+		</form>
+  </body>
+</html>

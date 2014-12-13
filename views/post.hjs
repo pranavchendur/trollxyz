@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <a href="/"><h3> < Back </h3></a>
+    <h1>{{ title }}</h1>
+    <p>Create {{ title }}</p>
+		<form action="/newpost" method="post" accept-charset="utf-8">
+			<input type="text" name="content" />
+      <input type="hidden" name="id" value="548b2de12b998625cc000574" />
+      <button type="submit">Post</button>
+		</form>
+  </body>
+</html>
